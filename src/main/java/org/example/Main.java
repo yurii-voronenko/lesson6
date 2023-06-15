@@ -1,7 +1,11 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main
 {
+
+
     public static void main(String[] args) {
 
         int intVal = 10;
@@ -119,6 +123,19 @@ public class Main
         System.out.println( first + " ^ " + second + " = " + (first ^ second));
 
 
+        // Additional info for homework:
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first: ");
+        int var1 = scanner.nextInt();
+
+        System.out.print("Enter second: ");
+        int var2 = scanner.nextInt();
+        System.out.print("Enter third: ");
+        int var3 = scanner.nextInt();
+        System.out.print("Enter fourth: ");
+        int var4 = scanner.nextInt();
+
+        System.out.println(var1);
 
 
 
